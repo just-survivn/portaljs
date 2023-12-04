@@ -58,22 +58,6 @@ export const Footer: React.FC<Props> = ({ links, author }) => {
                     </span>
                 )}
             </p>
-            <p className="flex items-center justify-center gap-1">
-                <span>Made with</span>
-                <a
-                    href="https://flowershow.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-1 no-underline font-semibold text-black dark:text-white"
-                >
-                    <img
-                        src="https://flowershow.app/images/logo.svg"
-                        alt="Logo"
-                        className="h-6 block"
-                    />
-                    <span>Flowershow</span>
-                </a>
-            </p>
         </footer>
     );
 };
